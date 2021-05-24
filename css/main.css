@@ -67,13 +67,19 @@ body {
 }
 
 body {
-	background: #f5f5f5;
+	background: #F6F7F7;
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
 	color: #111111;
 }
-
+.single-body {
+	background: #ffffff;
+	font-family: "roboto-regular", sans-serif;
+	font-size: 1.7rem;
+	line-height: 3rem;
+	color: #111111;
+}
 /* ------------------------------------------------------------------- 
  * links - (_document-setup.scss)  
  * ------------------------------------------------------------------- */
@@ -99,8 +105,8 @@ a:focus {
  *
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: "montserrat-bold", sans-serif;
 	color: #151515;
+	font-weight: 700;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -180,6 +186,7 @@ em, i {
 }
 strong, b {
 	font-family: 'roboto-bold', sans-serif;
+	font-weight: 500;
 }
 small {
 	font-size: 1.1rem;
@@ -1101,7 +1108,7 @@ input::-moz-focus-inner {
 
 .bricks-wrapper .entry-thumb,
 .bricks-wrapper .entry-text {
-	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+	/* box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05); */
 }
 
 .bricks-wrapper .entry-thumb {
@@ -1186,12 +1193,12 @@ input::-moz-focus-inner {
 }
 
 .bricks-wrapper .entry-text {
-	padding: 1.8rem 2.8rem 3.6rem;
+	padding: 3rem 4rem 5rem;
 	background-color: white;
 }
 
 .bricks-wrapper .entry-header .entry-title {
-	font-size: 2.5rem;
+	font-size: 2.4rem;
 	line-height: 1.32;
 	margin-bottom: 1.8rem;	
 }
@@ -1202,7 +1209,7 @@ input::-moz-focus-inner {
 
 .bricks-wrapper .entry-header .entry-meta {
 	font-family: "muli-regular", sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	margin-bottom: 1.2rem;
 }
 .bricks-wrapper .entry-header .entry-meta a,
@@ -1219,9 +1226,10 @@ input::-moz-focus-inner {
 }
 
 .bricks-wrapper .entry-excerpt {
-	font-size: 1.5rem;
-	line-height: 2.7rem;
+	font-size: 1.4rem;
+	line-height: 2.5rem;
 	color: #999999;
+	text-align: justify;
 }
 
 
@@ -1257,7 +1265,7 @@ input::-moz-focus-inner {
 }
 
 .featured-post-slide .overlay {
-	background-color: rgba(0, 0, 0, 0.3);
+	/* background-color: rgba(0, 0, 0, 0.3); */
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1271,7 +1279,7 @@ input::-moz-focus-inner {
 }
 
 .featured-post-slide:hover .overlay {
-	background-color: rgba(0, 0, 0, 0.5);
+	/*  background-color: rgba(0, 0, 0, 0.5);*/
 }
 
 .featured-post-slide .post-content {
@@ -1560,14 +1568,14 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 header {
 	width: 100%;
-	background: #DBDBDB url(../images/escheresque_@2X.png) repeat;
+	background: #F5F5F5;
 	background-size: 46px 29px;
-	height: 130px;
-	border-bottom: 1px solid #E5E5E5;
+	height: 140px;
+	/* border-bottom: 1px solid #E5E5E5; */
 }
 header .header-content {
 	height: auto;
-	max-width: 1290px;
+	max-width: 1280px;
 	position: absolute;
 	top: 24px;
 	left: 0;
@@ -1590,8 +1598,7 @@ header a {
  * ------------------------------------------------------------------- */
 header .logo {
 	position: absolute;
-	left: 35px;
-	top: 6px;
+	top: 50px;
 	z-index: 601;
 }
 
@@ -1601,10 +1608,10 @@ header .logo a {
 	padding: 0;
 	outline: 0;
 	border: none;
-	width: 60px;
-	height: 60px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 60px 60px;
+	width: 129px;
+	height: 40px;
+	background: url("../images/logo.svg") no-repeat center center;
+	background-size: 129px 40px;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
@@ -2253,6 +2260,12 @@ header .logo a {
 	vertical-align: bottom;
 }
 
+#content-wrap .content-media video {
+	max-width: 910px;
+	margin: 3rem 0 3rem -6rem;
+	vertical-align: bottom;
+}
+
 #content-wrap .primary-content {
 	padding-left: 6rem;
 	padding-right: 6rem;
@@ -2260,7 +2273,7 @@ header .logo a {
 
 #content-wrap .primary-content img {
 	max-width: 910px;
-	margin: 3rem 0 3rem -6rem;
+	margin: 1rem 0 1rem -6rem;
 }
 
 #content-wrap .primary-content img.pull-right {
@@ -2293,7 +2306,7 @@ header .logo a {
 	}
 	#content-wrap .primary-content img {
 		max-width: 844px;
-		margin: 3rem 0 3rem -5rem;
+		margin: 1rem 0 1rem -5rem;
 	}
 
 }
@@ -2308,7 +2321,7 @@ header .logo a {
 	}
 	#content-wrap .primary-content img {
 		max-width: 100%;
-		margin: 3rem 0 3rem 0;
+		margin: 1rem 0 1rem 0;
 	}
 
 }
@@ -2546,6 +2559,8 @@ footer ul li {
 .footer-bottom {
 	margin-top: 3rem;
 	text-align: center;
+	padding-top:40px;
+	border-top:1px solid #E5E5E5;
 }
 
 .footer-bottom .copyright span {
