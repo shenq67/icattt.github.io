@@ -1646,9 +1646,9 @@ header .logo a {
 	}
 
 	header .logo a {
-		width: 54px;
+		width: 64px;
 		height: 54px;
-		background-size: 54px 54px;
+		background-size: 64px 54px;
 	}
 
 }
@@ -1659,7 +1659,7 @@ header .logo a {
 .triggers {
 	position: absolute;
 	right: 35px;
-	top: 18px;
+	top: 40px;
 }
 
 .triggers .search-trigger {
@@ -1678,7 +1678,7 @@ header .logo a {
 @media only screen and (max-width:768px) {
 	.triggers {
 		right: 40px;
-		top: 12px;
+		top: 44px;
 	}
 
 }
@@ -1693,6 +1693,7 @@ header .logo a {
 @media only screen and (max-width:400px) {
 	.triggers {
 		right: 20px;
+		top: 55px;
 	}
 
 }
@@ -1706,7 +1707,7 @@ header .logo a {
 	padding-right: 85px;
 	font-family: "montserrat-regular", sans-serif;
 	font-size: 15px;
-	height: 78px;
+	height: 140px;
 }
 
 .main-navigation {
