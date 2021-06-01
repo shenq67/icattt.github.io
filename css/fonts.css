@@ -81,3 +81,13 @@
 	font-style: normal;
 	font-weight: normal;
 }
+
+/*
+ * BarlowCondensed
+================================================================================ */
+@font-face {
+	font-family: "Barlow Condensed";
+	src: url("../fonts/BarlowCondensed/BarlowCondensed-Regular.ttf") format("ttf");
+	font-style: normal;
+	font-weight: normal;
+}

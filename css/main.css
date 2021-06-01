@@ -173,6 +173,7 @@ p.big{
 	font-weight: 500; 
 	margin-bottom: 25rem; 
 	margin-top: 15rem;
+	line-height:10rem;
 }
 p.info-item{
 	font-family: 'roboto-light', sans-serif;
