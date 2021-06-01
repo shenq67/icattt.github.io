@@ -86,8 +86,6 @@
  * BarlowCondensed
 ================================================================================ */
 @font-face {
-	font-family: "Barlow Condensed";
+	font-family: "BarlowCondensed-Medium";
 	src: url("../fonts/BarlowCondensed/BarlowCondensed-Medium.ttf");
-	font-style: normal;
-	font-weight: normal;
 }
