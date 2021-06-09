@@ -30,24 +30,8 @@
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 @import url("fonts.css");
-@font-face {
-	  font-family: "iconfont"; /* Project id 2601878 */
-	  src: url('iconfont.woff2?t=1623205612262') format('woff2'),
-		   url('iconfont.woff?t=1623205612262') format('woff'),
-		   url('iconfont.ttf?t=1623205612262') format('truetype');
-	}
-.iconfont {
-	  font-family: "iconfont" !important;
-	  font-size: 16px;
-	  font-style: normal;
-	  -webkit-font-smoothing: antialiased;
-	  -moz-osx-font-smoothing: grayscale;
-	}
-	
-	.icon-tubiaozhizuomoban-:before {
-	  content: "\e601";
-	}
-	
+@import url("../fonts/iconfont/iconfont.css");
+
 
 /* ===================================================================
  *  02. base style overrides - (_document-setup.scss)
@@ -1755,7 +1739,7 @@ header .logo a {
 #main-nav-wrap {
 	display: table;
 	float: right;
-	padding-right: 10px;
+	padding-right: 0px;
 	font-family: "montserrat-regular", sans-serif;
 	font-size: 15px;
 	height: 140px;
@@ -1771,7 +1755,7 @@ header .logo a {
 	position: relative;
 	display: inline-block;
 	float: left;
-	margin-right: 22px;
+	margin-right: 32px;
 	padding: 0;
 }
 
