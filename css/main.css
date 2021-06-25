@@ -1611,7 +1611,7 @@ header {
 }
 header .header-content {
 	height: auto;
-	max-width: 1260px;
+	max-width: 1400px;
 	position: absolute;
 	top: 24px;
 	left: 0;
@@ -1636,6 +1636,7 @@ header .logo {
 	position: absolute;
 	top: 48px;
 	z-index: 601;
+	left: 70px;
 }
 
 header .logo a {
@@ -1739,7 +1740,7 @@ header .logo a {
 #main-nav-wrap {
 	display: table;
 	float: right;
-	padding-right: 0px;
+	padding-right: 70px;
 	font-family: "montserrat-regular", sans-serif;
 	font-size: 15px;
 	height: 140px;
