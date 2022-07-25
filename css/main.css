@@ -420,6 +420,10 @@ img.pull-left {
 .bgrid {
 	padding: 0 20px;
 }
+figure{
+	max-width:100%;
+	text-align: center;
+}
 
 @media only screen and (max-width:1024px) {
 	.bgrid {
@@ -2317,12 +2321,13 @@ header .logo a {
 }
 
 #content-wrap .primary-content img {
-	max-width: 1020px;
-	margin: 1rem 0 1rem -9rem;
+	max-width: 100%;
+	margin: 1rem 0 1rem 0;
+	border-radius:1.5rem;
 }
 
 #content-wrap .primary-content img.pull-right {
-	margin: 0.9rem 0 0 2.4rem;
+	margin: 1rem 0 1rem 0;
 	max-width: 100%;
 }
 
@@ -2355,8 +2360,8 @@ header .logo a {
 		padding-right: 5rem;
 	}
 	#content-wrap .primary-content img {
-		max-width: 844px;
-		margin: 1rem 0 1rem -5rem;
+		max-width: 100%;
+		margin: 1rem 0 1rem 0;
 	}
 	#content-wrap .content-media img {
 		max-width: 844px;
